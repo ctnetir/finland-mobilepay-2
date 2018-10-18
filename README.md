@@ -1,10 +1,11 @@
 |Android|iOS|
 |:-:|:-:|
 
-# Cordova Plugin for Danske Bank MobilePay AppSwitch
+# Cordova Plugin for Finnish MobilePay AppSwitch
 ======
+Thank you [mrlund](https://github.com/mrlund) for opensourcing this project.
 
-This is an unofficial Cordova plugin wrapping the Danske Bank AppSwitcher libraries for iOS and Android to enable Cordova apps to incorporate the MobilePay AppSwitch payment flow.
+This is a fork from his [repository](https://github.com/mrlund/cordova-mobilepay-appswitch). The original plugin was made for Dankse Bank MobilePay AppSwitch. In this one I made a quick change so it works with Finnish MobilePay App.
 
 > This plugin is not developed, published or otherwise affiliated with Danske Bank or MobilePay, but is a private project released "as-is" to the public by the author.  
 
@@ -12,13 +13,7 @@ This is an unofficial Cordova plugin wrapping the Danske Bank AppSwitcher librar
 ## <a id="reference"></a>Reference
 ## Installation
 
-This requires cordova 5.0+ ( current stable 1.0.0 )
-
-    cordova plugin add cordova-mobilepay-appswitch --variable URL_IDENTIFIER="com.example.myapp" --variable URL_SCHEME="myAppUrlScheme" --variable MERCHANT_ID="APPDK0000000000"
-
-It is also possible to install via repo url directly ( unstable )
-
-    cordova plugin add https://github.com/mrlund/cordova-mobilepay-appswitch.git -variable URL_IDENTIFIER="com.example.myapp" --variable URL_SCHEME="myAppUrlScheme" --variable MERCHANT_ID="APPDK0000000000"
+    cordova plugin add https://github.com/phuwin/cordova-mobilepay-appswitch -variable URL_IDENTIFIER="com.example.myapp" --variable URL_SCHEME="myAppUrlScheme" --variable MERCHANT_ID="APPDK0000000000"
 
 ## Supported Platforms
 
