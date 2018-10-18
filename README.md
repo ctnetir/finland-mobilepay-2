@@ -2,8 +2,6 @@
 |:-:|:-:|
 
 # Cordova Plugin for Finnish MobilePay AppSwitch
-======
-
 Thank you [mrlund](https://github.com/mrlund) for opensourcing this project.
 
 This is a fork from his [repository](https://github.com/mrlund/cordova-mobilepay-appswitch). The original plugin was made for Dankse Bank MobilePay AppSwitch. In this one I made a quick change so it works with Finnish MobilePay App.
