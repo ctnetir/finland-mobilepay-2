@@ -12,7 +12,7 @@ This is a fork from his [repository](https://github.com/mrlund/cordova-mobilepay
 ## <a id="reference"></a>Reference
 ## Installation
 
-    cordova plugin add https://github.com/phuwin/cordova-mobilepay-appswitch.git -variable URL_IDENTIFIER="com.example.myapp" --variable URL_SCHEME="myAppUrlScheme" --variable MERCHANT_ID="APPDK0000000000"
+    cordova plugin add https://github.com/phuwin/cordova-mobilepay-appswitch.git -variable URL_IDENTIFIER="fi.example.myapp" --variable URL_SCHEME="myAppUrlScheme" --variable MERCHANT_ID="APPFI0000000000"
 
 ## Supported Platforms
 
