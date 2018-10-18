@@ -37,7 +37,7 @@ public class CordovaMobilePayAppSwitch extends CordovaPlugin {
     int merchantResId = cordova.getActivity().getResources().getIdentifier("merchantId", "string", cordova.getActivity().getPackageName());
     String merchantId = cordova.getActivity().getString(merchantResId);
     
-    MobilePay.getInstance().init(merchantId, Country.DENMARK);
+    MobilePay.getInstance().init(merchantId, Country.FINLAND);
 
     Log.d(TAG, "Initializing CordovaMobilePayAppSwitch");
   }
