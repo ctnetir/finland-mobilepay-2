@@ -58,6 +58,8 @@ public class CordovaMobilePayAppSwitch extends CordovaPlugin {
           payment.setOrderId(orderId);
 
           // Create a payment Intent using the Payment object from above.
+                    MobilePay mp = MobilePay.getInstance();
+          mp.setCaptureType(CaptureType.RESERVE);
           Intent paymentIntent = MobilePay.getInstance().createPaymentIntent(payment);
 
           // We now jump to MobilePay to complete the transaction. Start MobilePay and wait for the result using an unique result code of your choice.
